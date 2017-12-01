@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xpd-P8-4De">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="tBz-dL-Hiu">
+            <objects>
+                <tabBarController id="xpd-P8-4De" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="x8l-j9-IPc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="6Mw-pA-ZvF"/>
+                        <segue destination="Tyu-KZ-FfO" kind="relationship" relationship="viewControllers" id="qfy-Os-jSf"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v2T-J4-mmf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1302" y="65"/>
+        </scene>
+        <!--BatuAji-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BatamMall" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="jcR-kj-gpS">
+                                <rect key="frame" x="0.0" y="-49" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="UDz-J8-Dle"/>
+                                </constraints>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jcR-kj-gpS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1Iz-6V-b7w"/>
+                            <constraint firstItem="jcR-kj-gpS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-69" id="LfP-LV-mnK"/>
+                            <constraint firstItem="jcR-kj-gpS" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="dbY-4K-XM2"/>
+                            <constraint firstItem="jcR-kj-gpS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="j1W-CG-IXg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="BatuAji" id="6bb-Wk-MHh"/>
+                    <connections>
+                        <outlet property="Map" destination="jcR-kj-gpS" id="a8e-Ky-Uyi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-398" y="-319"/>
+        </scene>
+        <!--BatamCentre-->
+        <scene sceneID="vyv-rd-gNi">
+            <objects>
+                <viewController id="Tyu-KZ-FfO" customClass="SecondMap" customModule="BatamMall" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pYF-dm-xEE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Own-cu-QcT">
+                                <rect key="frame" x="0.0" y="-49" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="Li2-7p-Cx3"/>
+                                </constraints>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Own-cu-QcT" firstAttribute="bottom" secondItem="saG-tj-Z91" secondAttribute="bottom" id="B0L-A3-6yX"/>
+                            <constraint firstItem="Own-cu-QcT" firstAttribute="top" secondItem="pYF-dm-xEE" secondAttribute="topMargin" constant="-69" id="pjU-Zt-eX0"/>
+                            <constraint firstItem="Own-cu-QcT" firstAttribute="leading" secondItem="saG-tj-Z91" secondAttribute="leading" id="wNs-6c-z2e"/>
+                            <constraint firstItem="Own-cu-QcT" firstAttribute="trailing" secondItem="saG-tj-Z91" secondAttribute="trailing" id="wjX-kU-bdZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="saG-tj-Z91"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="BatamCentre" id="Nv5-W8-tQ6"/>
+                    <connections>
+                        <outlet property="MapView" destination="Own-cu-QcT" id="3Nt-5T-vO2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tED-gv-E8q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-399" y="417"/>
+        </scene>
+    </scenes>
+</document>

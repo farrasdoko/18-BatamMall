@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4367D911FD157D200DDCFAB /* mapkit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4367D901FD157D200DDCFAB /* mapkit.swift */; };
+		C4396B961FCC1372005D1421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4396B951FCC1372005D1421 /* AppDelegate.swift */; };
+		C4396B981FCC1372005D1421 /* FirstMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4396B971FCC1372005D1421 /* FirstMap.swift */; };
+		C4396B9B1FCC1372005D1421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4396B991FCC1372005D1421 /* Main.storyboard */; };
+		C4396B9D1FCC1372005D1421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4396B9C1FCC1372005D1421 /* Assets.xcassets */; };
+		C4396BA01FCC1372005D1421 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4396B9E1FCC1372005D1421 /* LaunchScreen.storyboard */; };
+		C4396BAB1FCC1372005D1421 /* BatamMallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4396BAA1FCC1372005D1421 /* BatamMallTests.swift */; };
+		C4396BB61FCC1372005D1421 /* BatamMallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4396BB51FCC1372005D1421 /* BatamMallUITests.swift */; };
+		C47EBA821FCC1D06007B1B4B /* SecondMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47EBA811FCC1D06007B1B4B /* SecondMap.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4396BA71FCC1372005D1421 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4396B8A1FCC1372005D1421 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4396B911FCC1372005D1421;
+			remoteInfo = BatamMall;
+		};
+		C4396BB21FCC1372005D1421 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4396B8A1FCC1372005D1421 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4396B911FCC1372005D1421;
+			remoteInfo = BatamMall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4367D901FD157D200DDCFAB /* mapkit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapkit.swift; sourceTree = "<group>"; };
+		C4396B921FCC1372005D1421 /* BatamMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatamMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4396B951FCC1372005D1421 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4396B971FCC1372005D1421 /* FirstMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMap.swift; sourceTree = "<group>"; };
+		C4396B9A1FCC1372005D1421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4396B9C1FCC1372005D1421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4396B9F1FCC1372005D1421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4396BA11FCC1372005D1421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4396BA61FCC1372005D1421 /* BatamMallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatamMallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4396BAA1FCC1372005D1421 /* BatamMallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatamMallTests.swift; sourceTree = "<group>"; };
+		C4396BAC1FCC1372005D1421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4396BB11FCC1372005D1421 /* BatamMallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatamMallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4396BB51FCC1372005D1421 /* BatamMallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatamMallUITests.swift; sourceTree = "<group>"; };
+		C4396BB71FCC1372005D1421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47EBA811FCC1D06007B1B4B /* SecondMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondMap.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4396B8F1FCC1372005D1421 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4396BA31FCC1372005D1421 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4396BAE1FCC1372005D1421 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4396B891FCC1372005D1421 = {
+			isa = PBXGroup;
+			children = (
+				C47EBA7E1FCC1B88007B1B4B /* AnyClass */,
+				C4396B941FCC1372005D1421 /* BatamMall */,
+				C4396BA91FCC1372005D1421 /* BatamMallTests */,
+				C4396BB41FCC1372005D1421 /* BatamMallUITests */,
+				C4396B931FCC1372005D1421 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4396B931FCC1372005D1421 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4396B921FCC1372005D1421 /* BatamMall.app */,
+				C4396BA61FCC1372005D1421 /* BatamMallTests.xctest */,
+				C4396BB11FCC1372005D1421 /* BatamMallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4396B941FCC1372005D1421 /* BatamMall */ = {
+			isa = PBXGroup;
+			children = (
+				C4396B951FCC1372005D1421 /* AppDelegate.swift */,
+				C4396B991FCC1372005D1421 /* Main.storyboard */,
+				C4396B9C1FCC1372005D1421 /* Assets.xcassets */,
+				C4396B9E1FCC1372005D1421 /* LaunchScreen.storyboard */,
+				C4396BA11FCC1372005D1421 /* Info.plist */,
+			);
+			path = BatamMall;
+			sourceTree = "<group>";
+		};
+		C4396BA91FCC1372005D1421 /* BatamMallTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4396BAA1FCC1372005D1421 /* BatamMallTests.swift */,
+				C4396BAC1FCC1372005D1421 /* Info.plist */,
+			);
+			path = BatamMallTests;
+			sourceTree = "<group>";
+		};
+		C4396BB41FCC1372005D1421 /* BatamMallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4396BB51FCC1372005D1421 /* BatamMallUITests.swift */,
+				C4396BB71FCC1372005D1421 /* Info.plist */,
+			);
+			path = BatamMallUITests;
+			sourceTree = "<group>";
+		};
+		C47EBA7E1FCC1B88007B1B4B /* AnyClass */ = {
+			isa = PBXGroup;
+			children = (
+				C4396B971FCC1372005D1421 /* FirstMap.swift */,
+				C47EBA811FCC1D06007B1B4B /* SecondMap.swift */,
+				C4367D901FD157D200DDCFAB /* mapkit.swift */,
+			);
+			path = AnyClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4396B911FCC1372005D1421 /* BatamMall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4396BBA1FCC1372005D1421 /* Build configuration list for PBXNativeTarget "BatamMall" */;
+			buildPhases = (
+				C4396B8E1FCC1372005D1421 /* Sources */,
+				C4396B8F1FCC1372005D1421 /* Frameworks */,
+				C4396B901FCC1372005D1421 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BatamMall;
+			productName = BatamMall;
+			productReference = C4396B921FCC1372005D1421 /* BatamMall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4396BA51FCC1372005D1421 /* BatamMallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4396BBD1FCC1372005D1421 /* Build configuration list for PBXNativeTarget "BatamMallTests" */;
+			buildPhases = (
+				C4396BA21FCC1372005D1421 /* Sources */,
+				C4396BA31FCC1372005D1421 /* Frameworks */,
+				C4396BA41FCC1372005D1421 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4396BA81FCC1372005D1421 /* PBXTargetDependency */,
+			);
+			name = BatamMallTests;
+			productName = BatamMallTests;
+			productReference = C4396BA61FCC1372005D1421 /* BatamMallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4396BB01FCC1372005D1421 /* BatamMallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4396BC01FCC1372005D1421 /* Build configuration list for PBXNativeTarget "BatamMallUITests" */;
+			buildPhases = (
+				C4396BAD1FCC1372005D1421 /* Sources */,
+				C4396BAE1FCC1372005D1421 /* Frameworks */,
+				C4396BAF1FCC1372005D1421 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4396BB31FCC1372005D1421 /* PBXTargetDependency */,
+			);
+			name = BatamMallUITests;
+			productName = BatamMallUITests;
+			productReference = C4396BB11FCC1372005D1421 /* BatamMallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4396B8A1FCC1372005D1421 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = FarrasDoko;
+				TargetAttributes = {
+					C4396B911FCC1372005D1421 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					C4396BA51FCC1372005D1421 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4396B911FCC1372005D1421;
+					};
+					C4396BB01FCC1372005D1421 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4396B911FCC1372005D1421;
+					};
+				};
+			};
+			buildConfigurationList = C4396B8D1FCC1372005D1421 /* Build configuration list for PBXProject "BatamMall" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4396B891FCC1372005D1421;
+			productRefGroup = C4396B931FCC1372005D1421 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4396B911FCC1372005D1421 /* BatamMall */,
+				C4396BA51FCC1372005D1421 /* BatamMallTests */,
+				C4396BB01FCC1372005D1421 /* BatamMallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4396B901FCC1372005D1421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4396BA01FCC1372005D1421 /* LaunchScreen.storyboard in Resources */,
+				C4396B9D1FCC1372005D1421 /* Assets.xcassets in Resources */,
+				C4396B9B1FCC1372005D1421 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4396BA41FCC1372005D1421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4396BAF1FCC1372005D1421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4396B8E1FCC1372005D1421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47EBA821FCC1D06007B1B4B /* SecondMap.swift in Sources */,
+				C4367D911FD157D200DDCFAB /* mapkit.swift in Sources */,
+				C4396B981FCC1372005D1421 /* FirstMap.swift in Sources */,
+				C4396B961FCC1372005D1421 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4396BA21FCC1372005D1421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4396BAB1FCC1372005D1421 /* BatamMallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4396BAD1FCC1372005D1421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4396BB61FCC1372005D1421 /* BatamMallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4396BA81FCC1372005D1421 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4396B911FCC1372005D1421 /* BatamMall */;
+			targetProxy = C4396BA71FCC1372005D1421 /* PBXContainerItemProxy */;
+		};
+		C4396BB31FCC1372005D1421 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4396B911FCC1372005D1421 /* BatamMall */;
+			targetProxy = C4396BB21FCC1372005D1421 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4396B991FCC1372005D1421 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4396B9A1FCC1372005D1421 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4396B9E1FCC1372005D1421 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4396B9F1FCC1372005D1421 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4396BB81FCC1372005D1421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4396BB91FCC1372005D1421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4396BBB1FCC1372005D1421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BatamMall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gw.BatamMall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4396BBC1FCC1372005D1421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BatamMall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gw.BatamMall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4396BBE1FCC1372005D1421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BatamMallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gw.BatamMallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatamMall.app/BatamMall";
+			};
+			name = Debug;
+		};
+		C4396BBF1FCC1372005D1421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BatamMallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gw.BatamMallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatamMall.app/BatamMall";
+			};
+			name = Release;
+		};
+		C4396BC11FCC1372005D1421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BatamMallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gw.BatamMallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BatamMall;
+			};
+			name = Debug;
+		};
+		C4396BC21FCC1372005D1421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BatamMallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gw.BatamMallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BatamMall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4396B8D1FCC1372005D1421 /* Build configuration list for PBXProject "BatamMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4396BB81FCC1372005D1421 /* Debug */,
+				C4396BB91FCC1372005D1421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4396BBA1FCC1372005D1421 /* Build configuration list for PBXNativeTarget "BatamMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4396BBB1FCC1372005D1421 /* Debug */,
+				C4396BBC1FCC1372005D1421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4396BBD1FCC1372005D1421 /* Build configuration list for PBXNativeTarget "BatamMallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4396BBE1FCC1372005D1421 /* Debug */,
+				C4396BBF1FCC1372005D1421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4396BC01FCC1372005D1421 /* Build configuration list for PBXNativeTarget "BatamMallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4396BC11FCC1372005D1421 /* Debug */,
+				C4396BC21FCC1372005D1421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4396B8A1FCC1372005D1421 /* Project object */;
+}
